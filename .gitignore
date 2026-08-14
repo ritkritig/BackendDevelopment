@@ -3,3 +3,9 @@ node_modules/
 # IntelliJ / WebStorm IDE files
 .idea/
 *.iml
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
