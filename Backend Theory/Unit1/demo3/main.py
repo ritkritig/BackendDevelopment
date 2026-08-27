@@ -17,7 +17,7 @@ class StudentCreate(BaseModel):
 
 
 students: List[Student] = [
-    Student(id=1, name="Aarav", branch="CSE"),
+    Student(id=1, name="Ritkriti", branch="CSE"),
     Student(id=2, name="Diya", branch="ECE"),
     Student(id=3, name="Rohan", branch="IT"),
 ]
