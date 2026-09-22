@@ -1,0 +1,198 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f7f6;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    padding: 5px 10px;
+    font-size: 0.9em;
+}
+
+/* 2x2 Eisenhower Matrix Grid using CSS Grid[cite: 1] */
+.matrix-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Urgent (Left) | Not Urgent (Right) */
+    grid-template-rows: 1fr 1fr;    /* Important (Top) | Not Important (Bottom) */
+    gap: 20px;
+    min-height: 80vh;
+}
+
+.quadrant {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border-top: 5px solid;
+}
+
+/* Quadrant Specific Colors */
+.q-do { border-top-color: #28a745; }       /* Top-Left: Green */
+.q-schedule { border-top-color: #17a2b8; } /* Top-Right: Blue */
+.q-delegate { border-top-color: #ffc107; } /* Bottom-Left: Yellow */
+.q-eliminate { border-top-color: #dc3545; }/* Bottom-Right: Red */
+
+.task-card {
+    background: #fdfdfd;
+    border: 1px solid #eee;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.task-card h4 { margin-top: 0; }
+.task-card p { color: #555; }
+
+/* Form Styles */
+.form-container {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: 0 auto;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.form-group { margin-bottom: 15px; }
+.form-group label { display: block; margin-bottom: 5px; font-weight: bold;}
+.form-group input[type="text"], .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f7f6;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    color: #000;
+}
+
+/* 2x2 Grid Layout */
+.matrix-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    min-height: 80vh;
+}
+
+.quadrant {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border-top: 5px solid;
+}
+
+.quadrant-subtitle {
+    color: #666;
+    font-size: 0.9em;
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+
+/* Quadrant Accent Colors */
+.q-do { border-top-color: #28a745; }
+.q-schedule { border-top-color: #17a2b8; }
+.q-delegate { border-top-color: #ffc107; }
+.q-eliminate { border-top-color: #dc3545; }
+
+/* Task Card Styling */
+.task-card {
+    background: #fdfdfd;
+    border: 1px solid #eee;
+    padding: 12px 15px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+}
+
+.task-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.task-header input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.task-title {
+    margin: 0;
+    font-size: 1.1em;
+}
+
+.task-actions {
+    display: flex;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+/* Completed Task Visual State */
+.task-completed {
+    background-color: #f0f0f0;
+    opacity: 0.65;
+}
+
+.task-completed .task-title,
+.task-completed p {
+    text-decoration: line-through;
+    color: #777;
+}

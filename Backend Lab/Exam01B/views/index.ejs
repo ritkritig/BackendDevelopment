@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Eisenhower Todo Matrix</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <h1>Eisenhower Matrix Todo</h1>
+        <a href="/tasks/new" class="btn">+ Add New Task</a>
+    </header>
+
+    <div class="matrix-container">
+        <!-- Reusable task list rendering logic -->
+        <% const renderQuadrant = (taskList, title, subtitle) => { %>
+            <h2><%= title %></h2>
+            <p class="quadrant-subtitle"><%= subtitle %></p>
+            <% taskList.forEach(task => { %>
+                <div class="task-card <%= task.isCompleted ? 'task-completed' : '' %>">
+                    <div class="task-header">
+                        <!-- Completion Checkbox -->
+                        <form action="/tasks/<%= task._id %>/<%= task.isCompleted ? 'redo' : 'complete' %>" method="POST" style="display:inline;">
+                            <input type="checkbox" 
+                                   onchange="this.form.submit()" 
+                                   <%= task.isCompleted ? 'checked' : '' %> 
+                                   title="Mark as completed/incomplete">
+                        </form>
+                        <h4 class="task-title"><%= task.title %></h4>
+                    </div>
+
+                    <p><%= task.description %></p>
+
+                    <div class="task-actions">
+                        <% if (task.isCompleted) { %>
+                            <!-- Redo Button -->
+                            <form action="/tasks/<%= task._id %>/redo" method="POST">
+                                <button type="submit" class="btn btn-warning">🔄 Redo</button>
+                            </form>
+                        <% } %>
+
+                        <!-- Delete Button -->
+                        <form action="/tasks/<%= task._id %>/delete" method="POST">
+                            <button type="submit" class="btn btn-danger">Delete</button>
+                        </form>
+                    </div>
+                </div>
+            <% }) %>
+        <% } %>
+
+        <!-- Quadrant 1: Urgent & Important -->
+        <div class="quadrant q-do">
+            <% renderQuadrant(matrix.doTasks, "Do", "Urgent & Important") %>
+        </div>
+
+        <!-- Quadrant 2: Not Urgent & Important -->
+        <div class="quadrant q-schedule">
+            <% renderQuadrant(matrix.scheduleTasks, "Schedule", "Not Urgent & Important") %>
+        </div>
+
+        <!-- Quadrant 3: Urgent & Not Important -->
+        <div class="quadrant q-delegate">
+            <% renderQuadrant(matrix.delegateTasks, "Delegate", "Urgent & Not Important") %>
+        </div>
+
+        <!-- Quadrant 4: Not Urgent & Not Important -->
+        <div class="quadrant q-eliminate">
+            <% renderQuadrant(matrix.eliminateTasks, "Eliminate", "Not Urgent & Not Important") %>
+        </div>
+    </div>
+</body>
+</html>
