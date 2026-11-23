@@ -22,3 +22,8 @@ BackendDevelopment/
 │
 ├── .gitignore
 └── README.md
+```
+
+## PBL Assignment
+
+[Backend Development PBL – FastAPI Docker & CI/CD](https://github.com/ritkritig/Backend-PBL)
