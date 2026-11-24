@@ -1,0 +1,25 @@
+name: Docker image build
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Login to DockerHub
+        run: |
+          echo "${{ secrets.DOCKERTOKEN }}" | docker login -u "${{ secrets.DOCKERUSERNAME }}" --password-stdin
+
+      - name: Build Docker Image
+        run: |
+          docker build -t ${{ secrets.DOCKERUSERNAME }}/fastapi-app:v0.1 "Backend Theory/unit4/fastapi-docker-tutorial"
+
+      - name: Push Docker Image
+        run: |
+          docker push ${{ secrets.DOCKERUSERNAME }}/fastapi-app:v0.1
