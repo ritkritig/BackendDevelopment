@@ -45,7 +45,9 @@ def root():
     return {
         "application": "Student API",
         "framework": "FastAPI",
-        "status": "running"
+        "status": "running",
+        "sapid": "590014172",
+        "location": "Dehradun"
     }
 
 @app.get("/health")
