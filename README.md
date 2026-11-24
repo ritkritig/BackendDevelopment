@@ -16,9 +16,10 @@ BackendDevelopment/
 │   └── Experiment 12+
 │
 ├── Backend Theory/
-│   ├── Unit 1
-│   ├── Unit 2
-│   └── ...
+│   ├── Unit 1/
+│   ├── Unit 2/
+│   ├── ...
+│   └── Unit 4/
 │
 ├── .github/
 │   └── workflows/
@@ -46,29 +47,45 @@ The experiments cover concepts such as:
 
 The **Backend Theory** directory contains implementations and demonstrations related to concepts covered during theory classes.
 
-It serves as a reference for understanding and practicing different backend development concepts.
+It serves as a reference for understanding and practicing different backend development concepts, including APIs, deployment, Docker, and other backend technologies covered during the course.
 
 ## 🚀 PBL Assignment
 
 ### Backend Development PBL – FastAPI, Docker & CI/CD
 
-As part of the course's **Project-Based Learning (PBL)** component, a separate backend project was developed using **FastAPI** and containerized using **Docker**.
+As part of the **Project-Based Learning (PBL)** component, a FastAPI application was containerized and integrated with an automated CI/CD workflow.
 
-The project also demonstrates a basic **CI/CD workflow using GitHub Actions**, providing practical exposure to backend deployment and automation concepts.
+The project demonstrates:
+
+- FastAPI backend development
+- REST API creation and testing
+- Docker containerization
+- Docker Compose
+- Automated API testing
+- GitHub Actions
+- Docker Hub integration
+- Automated Docker image build and push
 
 🔗 **PBL Repository:**  
 [Backend Development PBL – FastAPI Docker & CI/CD](https://github.com/ritkritig/Backend-PBL)
 
-### Key Concepts Demonstrated
+## 🐳 FastAPI Docker Tutorial
 
-- FastAPI backend development
-- REST API creation
-- Docker containerization
-- Docker image creation
-- Running applications inside containers
-- GitHub Actions
-- CI/CD workflow
-- Automated build and testing process
+A separate hands-on implementation was completed to demonstrate the workflow from basic Docker containerization to a more production-oriented backend setup.
+
+The tutorial includes:
+
+- FastAPI containerization using Docker
+- Docker image creation and Docker Hub
+- CI/CD automation using GitHub Actions
+- Structured request logging
+- Health checks and response-time monitoring
+- Horizontal scaling using multiple containers
+- Nginx load balancing
+- End-to-end CI/CD verification
+
+🔗 **Tutorial Repository:**  
+[FastAPI Docker Tutorial – CI/CD, Monitoring & Scaling](https://github.com/ritkritig/FastAPI-Docker-Tutorial)
 
 ## 🛠️ Technologies & Tools
 
@@ -83,22 +100,28 @@ The project also demonstrates a basic **CI/CD workflow using GitHub Actions**, p
 - Databases
 - REST APIs
 - Docker
+- Docker Compose
+- Nginx
 - Git & GitHub
 - GitHub Actions
+- Docker Hub
 
 ## 🎯 Learning Outcomes
 
-Through these experiments and projects, the repository demonstrates practical understanding of:
+Through the coursework, practical experiments, PBL, and Docker tutorial, this repository demonstrates practical understanding of:
 
 - Backend application development
 - Client-server architecture
-- API development
+- REST API development
 - Database connectivity
 - Server-side rendering
 - Backend frameworks
 - Containerization using Docker
-- Version control using Git
-- CI/CD and development workflow automation
+- Docker image management
+- API testing and health monitoring
+- CI/CD workflow automation
+- Horizontal scaling and load balancing
+- Version control using Git and GitHub
 
 ## 👩‍💻 Author
 
