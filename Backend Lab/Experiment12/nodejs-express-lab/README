@@ -619,12 +619,11 @@ http://localhost:3000/profile/1
 
 ---
 
-# 📸 Final Output
 
-The final application demonstrates Express routing, different HTTP response types, parameter handling, POST requests, and dynamic server-side rendering using EJS.
+## 📸 Final Output
 
 <p align="center">
-  <img src="./images/screenshot.png" alt="Experiment 12 - Node.js Express and EJS Output" width="900">
+  <img src="./Images/screenshot.png" alt="Experiment 12 - Node.js Express and EJS Output" width="900">
 </p>
 
 <p align="center">
