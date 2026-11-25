@@ -623,7 +623,7 @@ http://localhost:3000/profile/1
 ## 📸 Final Output
 
 <p align="center">
-  <img src="./Images/screenshot.png" alt="Experiment 12 - Node.js Express and EJS Output" width="900">
+  <img src="./images/screenshot.png" alt="Experiment 12 - Node.js Express and EJS Output" width="900">
 </p>
 
 <p align="center">
