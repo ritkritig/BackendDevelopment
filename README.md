@@ -11,16 +11,16 @@ All source code and detailed documentation are maintained in the main **BackendD
 
 # 🧪 Backend Development Lab
 
-| Experiment | Topic | Experiment | README |
+| Experiment | Topic | Experiment | Documentation |
 |---|---|---|---|
-| **Experiment 1** | HTML5 Web Page — Skincare Hub | [View Experiment 1](https://github.com/ritkritig/BackendDevelopment/tree/master/Backend%20Lab/Experiment1) | [README](Backend%20Lab/Experiment1/README.md) |
-| **Experiment 7 & 8** | ES6 JavaScript To-Do Application | [View Experiment 7 & 8](https://github.com/ritkritig/BackendDevelopment/tree/master/Backend%20Lab/Experiment7%2C8) | [README](Backend%20Lab/Experiment7%2C8/README.md) |
-| **Experiment 12** | Node.js, Express.js & EJS | [View Experiment 12](https://github.com/ritkritig/BackendDevelopment/tree/master/Backend%20Lab/Experiment12/nodejs-express-lab) | [README](Backend%20Lab/Experiment12/nodejs-express-lab/README.md) |
-| **Experiment 12B** | Cookies & Sessions using Express.js | [View Experiment 12B](https://github.com/ritkritig/BackendDevelopment/tree/master/Backend%20Lab/Experiment12B) | [README](Backend%20Lab/Experiment12B/README.md) |
-| **Experiment 13** | MongoDB & Mongoose | [View Experiment 13](https://github.com/ritkritig/BackendDevelopment/tree/master/Backend%20Lab/Experiment13/mongoose-demo) | [README](Backend%20Lab/Experiment13/mongoose-demo/README.md) |
-| **Experiment 15** | Django Todo Application | [View Experiment 15](https://github.com/ritkritig/BackendDevelopment/tree/master/Backend%20Lab/Experiment15/django_todo_app) | [README](Backend%20Lab/Experiment15/django_todo_app/README.md) |
-| **Experiment 15B** | Advanced Django & External API Integration | [View Experiment 15B](https://github.com/ritkritig/BackendDevelopment/tree/master/Backend%20Lab/Experiment15B) | [README](Backend%20Lab/Experiment15B/README.md) |
-| **Exam 01B** | Eisenhower Matrix Todo Application | [View Exam 01B](https://github.com/ritkritig/BackendDevelopment/tree/master/Backend%20Lab/Exam01B) | [README](Backend%20Lab/Exam01B/README.md) |
+| **Experiment 1** | HTML5 Web Page — Skincare Hub | [View Experiment 1](https://github.com/ritkritig/BackendDevelopment/tree/master/Backend%20Lab/Experiment1) | [View README](./Backend%20Lab/Experiment1/) |
+| **Experiment 7 & 8** | ES6 JavaScript To-Do Application | [View Experiment 7 & 8](https://github.com/ritkritig/BackendDevelopment/tree/master/Backend%20Lab/Experiment7%2C8) | [View README](./Backend%20Lab/Experiment7%2C8/) |
+| **Experiment 12** | Node.js, Express.js & EJS | [View Experiment 12](https://github.com/ritkritig/BackendDevelopment/tree/master/Backend%20Lab/Experiment12/nodejs-express-lab) | [View README](./Backend%20Lab/Experiment12/nodejs-express-lab/) |
+| **Experiment 12B** | Cookies & Sessions using Express.js | [View Experiment 12B](https://github.com/ritkritig/BackendDevelopment/tree/master/Backend%20Lab/Experiment12B) | [View README](./Backend%20Lab/Experiment12B/) |
+| **Experiment 13** | MongoDB & Mongoose | [View Experiment 13](https://github.com/ritkritig/BackendDevelopment/tree/master/Backend%20Lab/Experiment13/mongoose-demo) | [View README](./Backend%20Lab/Experiment13/mongoose-demo/) |
+| **Experiment 15** | Django Todo Application | [View Experiment 15](https://github.com/ritkritig/BackendDevelopment/tree/master/Backend%20Lab/Experiment15/django_todo_app) | [View README](./Backend%20Lab/Experiment15/django_todo_app/) |
+| **Experiment 15B** | Advanced Django & External API Integration | [View Experiment 15B](https://github.com/ritkritig/BackendDevelopment/tree/master/Backend%20Lab/Experiment15B) | [View README](./Backend%20Lab/Experiment15B/) |
+| **Exam 01B** | Eisenhower Matrix Todo Application | [View Exam 01B](https://github.com/ritkritig/BackendDevelopment/tree/master/Backend%20Lab/Exam01B) | [View README](./Backend%20Lab/Exam01B/) |
 
 # 📚 Backend Development Theory
 
